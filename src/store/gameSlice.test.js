@@ -10,7 +10,7 @@ import reducer, {
   createGame,
 } from "./gameSlice";
 
-describe.skip("game slice", () => {
+describe("game slice", () => {
   afterEach(() => {
     fetchMock.restore();
   });
